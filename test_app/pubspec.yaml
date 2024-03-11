@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   tflite_audio: ^0.3.0
+  file_picker: ^6.2.0
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +23,5 @@ flutter:
 assets:
     - assets/decoded_wav_model.tflite
     - assets/decoded_wav_label.txt
+    - assets/sample_audio_44k_mono.wav
+    - assets/sample_audio_16k_mono.wav

@@ -22,21 +22,21 @@ class _MyAppState extends State<MyApp> {
   Stream<Map<dynamic, dynamic>>? result;
 
   ///example values for decodedwav models
-  // final String model = 'assets/decoded_wav_model.tflite';
-  // final String label = 'assets/decoded_wav_label.txt';
-  // final String audioDirectory = 'assets/sample_audio_16k_mono.wav';
-  // final String inputType = 'decodedWav';
-  // final int sampleRate = 16000;
-  // final int bufferSize = 2000;
+  final String model = 'assets/decoded_wav_model.tflite';
+  final String label = 'assets/decoded_wav_label.txt';
+  final String audioDirectory = 'assets/sample_audio_16k_mono.wav';
+  final String inputType = 'decodedWav';
+  final int sampleRate = 16000;
+  final int bufferSize = 2000;
   // // final int audioLength = 16000;
 
   ///example values for google's teachable machine model
-  final String model = 'assets/google_teach_machine_model.tflite';
-  final String label = 'assets/google_teach_machine_label.txt';
-  final String inputType = 'rawAudio';
-  final String audioDirectory = 'assets/sample_audio_44k_mono.wav';
-  final int sampleRate = 44100;
-  final int bufferSize = 11016;
+  // final String model = 'assets/google_teach_machine_model.tflite';
+  // final String label = 'assets/google_teach_machine_label.txt';
+  // final String inputType = 'rawAudio';
+  // final String audioDirectory = 'assets/sample_audio_44k_mono.wav';
+  // final int sampleRate = 44100;
+  // final int bufferSize = 11016;
   // final int audioLength = 44032;
 
   ///example values for MFCC, melspectrogram, spectrogram models
@@ -90,15 +90,15 @@ class _MyAppState extends State<MyApp> {
 
   void getResult() {
     ///example for stored audio file recognition
-    // result = TfliteAudio.startFileRecognition(
-    //   audioDirectory: audioDirectory,
-    //   sampleRate: sampleRate,
-    //   // audioLength: audioLength,
-    //   // detectionThreshold: detectionThreshold,
-    //   // averageWindowDuration: averageWindowDuration,
-    //   // minimumTimeBetweenSamples: minimumTimeBetweenSamples,
-    //   // suppressionTime: suppressionTime,
-    // );
+    result = TfliteAudio.startFileRecognition(
+      audioDirectory: audioDirectory,
+      sampleRate: sampleRate,
+      // audioLength: audioLength,
+      // detectionThreshold: detectionThreshold,
+      // averageWindowDuration: averageWindowDuration,
+      // minimumTimeBetweenSamples: minimumTimeBetweenSamples,
+      // suppressionTime: suppressionTime,
+    );
 
     ///example for recording recognition
     result = TfliteAudio.startAudioRecognition(
