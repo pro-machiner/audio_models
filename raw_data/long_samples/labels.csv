@@ -269,7 +269,7 @@
 6:13.2, lever
 6:14.0, button
 6:14.5, button
-6:15:0, button
+6:15.0, button
 6:15.6, max_bet
 6:17.3, lever
 6:18.0, button
@@ -333,7 +333,7 @@
 7:02.7, button
 7:03.7, button
 7:04.9, max_bet
-7.06.0, lever
+7:06.0, lever
 7:06.6, button
 7:07.5, button
 7:08.8, button
@@ -687,7 +687,7 @@
 12:58.0, button
 12:58.4, button
 12:59.1, max_bet
-13.00.1, lever
+13:00.1, lever
 13:01.7, button
 13:02.1, button
 13:02.8, button
@@ -952,7 +952,7 @@
 17:00.6, button
 17:01.1, button
 17:01.6, button
-17.02.2, max_bet
+17:02.2, max_bet
 17:04.3, lever
 17:04.6, button
 17:05.2, button
@@ -1338,7 +1338,7 @@
 22:48.2, button
 22:48.6, gogo_lamp
 22:50.5, max_bet
-22:52:5, one_bet
+22:52.5, one_bet
 22:54.4, lever
 22:56.1, button
 22:58.3, button
@@ -1366,7 +1366,7 @@
 26:16.0, lever
 26:17.4, button
 26:18.2, button
-26:18:8, button
+26:18.8, button
 26:19.8, max_bet
 26:21.0, lever
 26:21.6, button
