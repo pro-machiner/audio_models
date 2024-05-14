@@ -1,0 +1,19 @@
+Slot machine 
+    * Computer Vision
+        - Started with YOLO v5 for object detection. God good performance after generating the training data manually with the machine. The pictures were captured using shivanand's pixel. And manually annotated the required images with the roboflow.
+    
+        - When initially ran in mobile the performance was low and was taking about 3.4-3.9 seconds. It was run using some pytorch library for flutter
+
+        - later the flutter library was changed to flutter vision and the performance was improved. 
+
+        - To detect the reel movement in faster speed, Tried to use mobile net. But the performance of the mobile net was bad and didn't use it. 
+
+        - The yolo model performed better with the reel movement and it is currently being used. 
+
+
+    * Audio Classification
+
+        - made a YAM Net classifer in tensorflow. The pipeline is from the official tensorflow site. made the model using transfer learning. Not finetuning. 
+        The model worked with almost 100% accuracy. when training with the audio sounds cropped properly. 
+
+        - Using a sliding window 
