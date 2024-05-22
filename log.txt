@@ -14,6 +14,8 @@ Slot machine
     * Audio Classification
 
         - made a YAM Net classifer in tensorflow. The pipeline is from the official tensorflow site. made the model using transfer learning. Not finetuning. 
-        The model worked with almost 100% accuracy. when training with the audio sounds cropped properly. 
+        The model worked with almost 100% accuracy. when traini ng with the audio sounds cropped properly. If it isn't cropped properly 
 
-        - Using a sliding window 
+        - Using a sliding window and YAM Net classifier the performance was good, but the computation time was so big it wasn't viable. 
+
+        - Cutting the audio into 3.5 second chunks and using multi label 
